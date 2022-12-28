@@ -26,7 +26,7 @@ const App = () => {
         },
     ];
 
-    function addExpenseHandler(expense){
+    function addExpenseHandler(expense){ //Lifting state up
         console.log("App.js");
         console.log(expense)
     }

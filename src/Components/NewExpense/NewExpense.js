@@ -9,7 +9,7 @@ function NewExpense(props) {
             id: Math.random().toString()
         };
 
-        props.onAddExpense(expenseData);
+        props.onAddExpense(expenseData); //Lifting state up to app.js
         console.log(expenseData)
     };
     return (
